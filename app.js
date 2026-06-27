@@ -19,7 +19,7 @@ const { register } = require("module");
 
 main()
   .then(() => {
-    console.log("connected to DB");
+    console.log("DataBase connected");
   })
   .catch((err) => {
     console.log(err);
